@@ -1,4 +1,4 @@
-# Graphy v1
+# Graphy
 
 ![Graphy Logo](./logo.png)
 
