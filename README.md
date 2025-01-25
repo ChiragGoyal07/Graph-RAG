@@ -6,19 +6,6 @@ Graphy v1 is a real-time GraphRAG (Graph Retrieval-Augmented Generation) applica
 
 ![App Screenshot](./sct.png)
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Demo](#demo)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Overview
 
 Graphy v1 allows users to upload a PDF document, which is then processed to extract entities and relationships using OpenAI's GPT models (e.g., `gpt-4o` and `text-ada-002`). The extracted information is stored in a Neo4j graph database. Users can then interact with the graph in real-time by asking natural language questions, which are converted into Cypher queries to retrieve answers from the graph.
@@ -31,21 +18,6 @@ Graphy v1 allows users to upload a PDF document, which is then processed to extr
 - **Visualization**: (Coming Soon) Visual representation of the graph and query results.
 - **Extensible**: Designed to support multiple documents and more conversational interactions in future versions.
 
-## Demo
-
-[![Watch the video](https://img.youtube.com/vi/odtGLUPXqfs/hqdefault.jpg)](https://youtu.be/odtGLUPXqfs)
-
-
-*Click the image above to watch the demo video on YouTube.*
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.10 or higher
-- An OpenAI API key with access to GPT models (e.g., `gpt-4o` or `ada 002`)
-- A Neo4j database instance (local or remote)
-- [Streamlit](https://streamlit.io/)
 
 ### Installation
 
@@ -114,16 +86,4 @@ To contribute:
 3. Commit your changes with clear commit messages.
 4. Open a pull request describing your changes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
-## Contact
-
-For questions or inquiries, please contact the developer:
-
-- **Email**: [aianytime07@gmail.com](mailto:aianytime07@gmail.com)
-
 ---
-
-*Disclaimer: This project is for educational purposes. Please ensure compliance with all applicable laws and regulations when using OpenAI's API and handling data.*
